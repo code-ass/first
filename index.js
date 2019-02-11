@@ -1,6 +1,6 @@
 const express = require('express');
 const passport = require('passport');
-cost GoogleStrategy = require('passport-google-oauth20').Strategy();
+const GoogleStrategy = require('passport-google-oauth20').Strategy();
 
 const app = express();
 
