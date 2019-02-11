@@ -27,9 +27,9 @@ app.get('/auth/google', passport.authenticate('google', {
 
 app.get('/auth/google/callback', passport.authenticate('google'));
 
-// app.get('/', (req, res) => {
-//     res.send('Dude, Im not a Monk here');
-// });
+app.get('/', (req, res) => {
+    res.send('Dude, Im not a Monk here, GOT IT');
+});
 
 
 const PORT = process.env.PORT || 5000;
